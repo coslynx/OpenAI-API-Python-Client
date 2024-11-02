@@ -1,0 +1,64 @@
+# Python files
+*.pyc
+__pycache__/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Logs
+logs/
+
+# Database files
+*.db
+*.sqlite3
+*.sql
+migrations/alembic/
+
+# Environment variables
+.env
+
+# Test files
+tests/unit/
+tests/integration/
+
+# Coverage reports
+coverage.xml
+.coverage
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+
+# Virtual environment
+venv/
+env/
+
+# System files
+*.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Poetry-related files
+poetry.lock
+poetry.toml
+
+# Temporary files
+*.pyc
+*.pyo
+
+# Git files
+.git/
