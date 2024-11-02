@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "openai-api-client"
+version = "0.1.0"
+description = "A simple API client for interacting with OpenAI's API"
+authors = ["Your Name <your@email.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.115.4"
+uvicorn = "^0.32.0"
+pydantic = "^2.9.2"
+openai = "^1.53.0"
+sqlalchemy = "^2.0.36"
+psycopg2-binary = "^2.9.10"
+alembic = "^1.13.3"
+pyjwt = "^2.9.0"
+requests = "^2.32.3"
+logging = "^0.4.9.6"
+prometheus_client = "^0.21.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^7.1.1"
+pytest = "^8.3.3"
+black = "^24.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
